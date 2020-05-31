@@ -1,2 +1,2 @@
 # HotairPistol
-Hot Air Pistol 2019
+Hot Air Pistol
