@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX6675
+F https://cdn-shop.adafruit.com/datasheets/MAX6675.pdf
+$ENDCMP
+#
+#End Doc Library
