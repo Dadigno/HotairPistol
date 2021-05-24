@@ -51,11 +51,12 @@ void loop() {
   //Serial.print(" ");
   //Serial.println(Input);
   
-  if(!bt2.getState()){
+  analogWrite(PIN_FAN1,Output); //to comply with the patched pcb
+  /*if(!bt2.getState()){
     analogWrite(PIN_HEAT,Output);
   }else{
     analogWrite(PIN_HEAT,0);
-  }
+  }*/
 
   if(bt1.getState()){
     Setpoint += 10;
